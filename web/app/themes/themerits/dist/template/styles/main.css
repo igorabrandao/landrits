@@ -134,6 +134,11 @@
     background: #000;
 }
 
+/* sectionThree setThree-one class row */
+.sectionThree .setThree-one .row{
+    position: relative; 
+}
+
 /* sectionThree setThree-one tag a */
 .sectionThree .setThree-one a{
     -webkit-box-shadow: 7px 6px 3px 0px rgba(55, 61, 135, 0.61);
@@ -147,7 +152,7 @@
 
 /* sectionThree setThree-two tag div */
 .sectionThree .setThree-two div {
-    top: -10%;
+    top: -14%;
 }
 
 /* sectionThree setThree-two tag p */
