@@ -20,8 +20,8 @@
               <img src="{{ $image }}" alt="<?php the_field('sectioThree_title'); ?>">
               <a href="<?php the_field('sectioThree_link_button') ?>" class="btn btn-danger"><?php the_field('sectioThree_title_button') ?></a>
             </div>
-            <div class="col" style="top: 55%;">
-              <h1><?php the_field('sectioThree_title'); ?></h1>
+            <div class="col" style="top: 25%;">
+              <h3><?php the_field('sectioThree_title'); ?></h3>
             </div>
           </div>
 
@@ -35,7 +35,6 @@
             </div>
             <div class="col">
               <div class="bg-footer"></div>
-              <!-- <img style=" " src="http://localhost/bedrock/web/app/themes/my_them/dist/bg/bgsectionfour-right.png" alt=""> -->
             </div>
           </div>
 

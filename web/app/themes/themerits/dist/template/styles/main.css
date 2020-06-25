@@ -105,7 +105,7 @@
     top: -6%;
     left: 0;
     width: 100%;
-    height: 291px;
+    height: 282px;
     background: url('/app/themes/themerits/dist/template/bg/bg-sectionthree-head.png');
 }
 
@@ -127,7 +127,6 @@
 
 /* sectionThree setThree-one tag img */
 .sectionThree .setThree-one img{
-    top: -7%;
     position: relative; 
     width: 400px; 
     height: 250px; 
@@ -148,7 +147,7 @@
 
 /* sectionThree setThree-two tag div */
 .sectionThree .setThree-two div {
-    top: -5%;
+    top: -10%;
 }
 
 /* sectionThree setThree-two tag p */
@@ -160,8 +159,10 @@
 
 .sectionThree .setThree-two .bg-footer{
     position: absolute;
-    left: 55%;
-    top: 5%;
+    left: 25%;
+    top: 0%;
+    width: 100%;
+    height: 400px;
     background: url('/app/themes/themerits/dist/template/bg/bg-footer-sectionthree.png');
     background-repeat: no-repeat;
 }
