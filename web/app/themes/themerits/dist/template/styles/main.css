@@ -167,9 +167,17 @@
     left: 25%;
     top: 0%;
     width: 100%;
-    height: 400px;
+    height: 525px;
     background: url('/app/themes/themerits/dist/template/bg/bg-footer-sectionthree.png');
     background-repeat: no-repeat;
+}
+
+/* init sectio FOUR */  
+
+
+/* section main  */
+.sectionFour {
+  margin-bottom: 12%;
 }
 
 

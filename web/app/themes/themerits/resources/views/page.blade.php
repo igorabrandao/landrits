@@ -5,6 +5,7 @@
 @include('partials.sectiontwo') 
 @include('partials.sectionthree') 
 @include('partials.sectionfour') 
+@include('partials.sectionfive') 
 
 <!-- <img src="@asset('images/example.jpg')"> -->
   @while(have_posts()) @php(the_post())
