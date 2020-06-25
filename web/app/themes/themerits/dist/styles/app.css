@@ -10106,8 +10106,8 @@ a {
 /**
  * Header
  */
-nav {
-  background-color: transparent !important;
-  padding: 5%;
+.brand {
+  font-weight: bold;
+  background-color: 0;
 }
 /*# sourceMappingURL=app.css.map*/

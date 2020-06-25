@@ -35,7 +35,7 @@ wp.customize('blogname', function (value) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /var/www/html/bedrock/web/app/themes/my_them/resources/assets/scripts/customizer.js */"./resources/assets/scripts/customizer.js");
+module.exports = __webpack_require__(/*! /var/www/landrits.com/bedrock/web/app/themes/themerits/resources/assets/scripts/customizer.js */"./resources/assets/scripts/customizer.js");
 
 
 /***/ }),

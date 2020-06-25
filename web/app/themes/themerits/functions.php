@@ -17,6 +17,8 @@ if (! file_exists($composer = __DIR__ . '/vendor/autoload.php')) {
 
 require $composer;
 
+
+
 /*
 |--------------------------------------------------------------------------
 | Register Sage Theme Files

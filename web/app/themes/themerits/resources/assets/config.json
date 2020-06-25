@@ -1,0 +1,23 @@
+{
+    "entry": {
+      "main": [
+        "./scripts/main.js",
+        "./styles/main.scss"
+      ],
+      "secondary": [
+        "./styles/secondary.scss"
+      ],
+      "customizer": [
+        "./scripts/customizer.js"
+      ]
+    },
+    "publicPath": "/wp-content/themes/themerits",
+    "devUrl": "http://rits.local",
+    "proxyUrl": "http://127.0.2.1:3000",
+    "cacheBusting": "[name]_[hash:8]",
+    "watch": [
+      "app/**/*.php",
+      "config/**/*.php",
+      "resources/views/**/*.php"
+    ]
+  }

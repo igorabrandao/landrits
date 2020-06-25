@@ -53,9 +53,9 @@ $(document).ready(function () {// console.log('Hello world');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /var/www/html/bedrock/web/app/themes/my_them/resources/assets/scripts/app.js */"./resources/assets/scripts/app.js");
-__webpack_require__(/*! /var/www/html/bedrock/web/app/themes/my_them/resources/assets/styles/app.scss */"./resources/assets/styles/app.scss");
-module.exports = __webpack_require__(/*! /var/www/html/bedrock/web/app/themes/my_them/resources/assets/styles/editor.scss */"./resources/assets/styles/editor.scss");
+__webpack_require__(/*! /var/www/landrits.com/bedrock/web/app/themes/themerits/resources/assets/scripts/app.js */"./resources/assets/scripts/app.js");
+__webpack_require__(/*! /var/www/landrits.com/bedrock/web/app/themes/themerits/resources/assets/styles/app.scss */"./resources/assets/styles/app.scss");
+module.exports = __webpack_require__(/*! /var/www/landrits.com/bedrock/web/app/themes/themerits/resources/assets/styles/editor.scss */"./resources/assets/styles/editor.scss");
 
 
 /***/ }),

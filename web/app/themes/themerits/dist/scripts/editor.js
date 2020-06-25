@@ -35,7 +35,7 @@ _wordpress_dom_ready__WEBPACK_IMPORTED_MODULE_1___default()(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /var/www/html/bedrock/web/app/themes/my_them/resources/assets/scripts/editor.js */"./resources/assets/scripts/editor.js");
+module.exports = __webpack_require__(/*! /var/www/landrits.com/bedrock/web/app/themes/themerits/resources/assets/scripts/editor.js */"./resources/assets/scripts/editor.js");
 
 
 /***/ }),
