@@ -1,30 +1,22 @@
 {
-  "name": "roots/sage",
-  "type": "wordpress-theme",
+  "name": "Rits",
+  "type": "Rits-theme",
   "license": "MIT",
-  "description": "WordPress starter theme with a modern development workflow",
-  "homepage": "https://roots.io/sage/",
+  "description": "Create landpage",
+  "homepage": "https://brenomirandaster.com.br",
   "authors": [
     {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
-    },
-    {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "QWp6t",
-      "email": "hi@qwp6t.me",
-      "homepage": "https://github.com/qwp6t"
+      "name": "Breno Miranda",
+      "email": "brenomirandaster@gmail.com",
+      "homepage": "https://github.com/Breno-Miranda"
     }
   ],
-  "keywords": ["wordpress"],
+  "keywords": [
+    "wordpress",
+    "rits"
+  ],
   "support": {
-    "issues": "https://github.com/roots/sage/issues",
-    "forum": "https://discourse.roots.io/"
+    "issues": "https://github.com/Breno-Miranda/landrits/issues"
   },
   "autoload": {
     "psr-4": {
@@ -32,20 +24,30 @@
     }
   },
   "require": {
-    "php": ">=7.1",
-    "composer/installers": "~1.0",
-    "illuminate/support": "5.6.*",
-    "roots/sage-lib": "~9.0.9",
-    "soberwp/controller": "~2.1.0"
+    "php": "^7.2.5",
+    "roots/acorn": "^1.0.1"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^2.8.0",
-    "roots/sage-installer": "~1.6"
+    "filp/whoops": "^2.7",
+    "squizlabs/php_codesniffer": "^3.5"
   },
+  "suggest": {
+    "log1x/sage-directives": "A collection of useful Blade directives for WordPress and Sage (^1.0).",
+    "log1x/sage-svg": "Provides a useful SVG directive for properly inlining SVG's within your Blade views (^1.0)."
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "scripts": {
-    "test": ["phpcs"],
-    "post-create-project-cmd": [
-      "Roots\\Sage\\Installer\\ComposerScript::postCreateProject"
+    "lint": [
+      "phpcs --ignore=index.php,vendor,resources,storage,dist --extensions=php --standard=PSR12 ."
+    ],
+    "post-autoload-dump": [
+      "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
     ]
   }
 }
