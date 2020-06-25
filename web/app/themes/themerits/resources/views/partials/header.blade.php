@@ -1,9 +1,8 @@
-<?php $image =  wp_get_attachment_url(get_theme_mod( 'custom_logo' )); // get image custom logo ?>
-
 <div class="container-fuild">
-  <nav class="navbar navbar-expand-lg navbar-light" style="">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
           <a class="brand" href="{{ home_url('/') }}">
+              <?php $image =  wp_get_attachment_url(get_theme_mod( 'custom_logo' )); ?>
               <img src="{{ $image }}" alt="{{ $siteName }}">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

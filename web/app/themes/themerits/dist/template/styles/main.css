@@ -7,3 +7,40 @@
 .sectioOne{
     background: linear-gradient(to bottom, #fff 0%, #fff 75%, rgb(71, 192, 112) 0%, rgb(71, 192, 112) 100%);
 }
+/*  tag p */
+.sectioOne p{
+    font-size: small;
+}
+/* div col */
+.sectioOne .setOne{
+    padding: 0% 10% 0% 15%;
+    font-size: smaller;
+}
+/* title H2 */
+.sectioOne h2{
+    font-weight: bold;
+}
+/* tag a (link) */
+.sectioOne a{
+    -webkit-box-shadow: 7px 6px 3px 0px rgba(55, 61, 135, 0.61);
+    -moz-box-shadow:    7px 6px 3px 0px rgba(55, 61, 135, 0.91);
+    box-shadow:         7px 6px 3px 0px rgba(55, 61, 135, 0.91); 
+    padding: 2% 10%; 
+    font-size: unset;
+    font-weight: bold;
+}
+/* tab img  */
+.sectioOne img{
+    width: 490px
+}
+/* tab div icon */
+.sectioOne .icon-sectioOne{
+    margin: 0px;
+    background-image: url('/app/themes/themerits/dist/template/bg/icon-triangle.png');
+    position: absolute;
+    bottom: 9%;
+    right: -25%;
+    width: 33px;
+    height: 33px;
+    background-repeat: no-repeat;
+}
