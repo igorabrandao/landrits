@@ -138,3 +138,12 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer'
     ] + $config);
 });
+
+// adding logo custom
+add_theme_support('custom-logo', [
+    // whatever settings
+    'label' => 'Logotype',
+    'height' => 50,
+    'width' => 50,
+    'flex-width' => true,
+  ]);

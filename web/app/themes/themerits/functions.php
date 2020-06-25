@@ -31,7 +31,8 @@ require $composer;
 |
 */
 
-collect(['helpers', 'setup', 'filters', 'admin'])
+//  adding class walker
+collect(['helpers', 'setup', 'filters', 'admin', 'walker'])
     ->each(function ($file) {
         $file = "app/{$file}.php";
 

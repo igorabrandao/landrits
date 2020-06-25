@@ -1,1 +1,9 @@
-/* sera que foi ? */
+/* init NAVBAR */
+
+.navbar {
+    background-color: transparent;
+}
+/* init sectio ONE */
+.sectioOne{
+    background: linear-gradient(to bottom, #fff 0%, #fff 75%, rgb(71, 192, 112) 0%, rgb(71, 192, 112) 100%);
+}
