@@ -174,10 +174,158 @@
 
 /* init sectio FOUR */  
 
-
-/* section main  */
 .sectionFour {
   margin-bottom: 12%;
 }
 
+/* init sectio FIVE */  
 
+.sectionFive {
+    background: linear-gradient(to left, #f2f2f2 50%, #fff 50%);
+}
+
+/* sectionFive sectionFive-one */
+.sectionFive .sectionFive-one {
+
+}
+
+/* sectionFive sectionFive-one one*/
+.sectionFive .sectionFive-one .one, h3 {
+    width: 60%;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+/* sectionFive sectionFive-one two*/
+.sectionFive .sectionFive-one .two {
+
+}
+
+/* sectionFive sectionFive-one bg-sectionfive*/
+.sectionFive .sectionFive-one .bg-sectionfive {
+    background-image: url('/app/themes/themerits/dist/template/bg/bg-sectiofive.png');
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 250px;
+    top: -25%;
+    top: -26%;
+    left: 45%;
+    position: absolute;
+}
+
+/* sectionFive sectionFive-two */
+.sectionFive .sectionFive-two {
+
+}
+
+/* sectionFive sectionFive-two setpOne */
+.sectionFive .sectionFive-two .setpOne{
+    border:  1px solid #000;
+    height: 400px;
+    position:relative;
+    background-color: #fff;
+    margin-left: 2%;
+    padding: 2%;
+}
+/* sectionFive sectionFive-two setpTwo */
+.sectionFive .sectionFive-two .setpTwo{
+    border:  1px solid #000;
+    height: 400px;
+    position:relative;
+    background-color: #fff;
+    margin-left: 2%;
+    padding: 2%;
+}
+/* sectionFive sectionFive-two setpThree */
+.sectionFive .sectionFive-two .setpThree{
+    border:  1px solid #000;
+    height: 400px;
+    position:relative;
+    background-color: #fff;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+  
+/* init sectio SIX */  
+
+.sectionSix {
+    margin-bottom: 2%;
+    background-color: #696969;
+}
+
+/* sectionSix  setpOne */
+.sectionSix .setpOne {
+
+}
+
+/* sectionSix  setpOne list-group-item */
+.list-group .list-group-item {
+    padding: 1.75rem 1.25rem ;
+    background-color: #434446a8;
+    border-top-left-radius: none !important;  
+    border-top-right-radius: none !important;  
+    color: cornsilk;
+    left: -12px;
+    font-weight: bold !important;
+}
+
+.list-group-item.active {
+    left: -25px  !important;
+    width: 300px  !important;
+    font-weight: bold !important;
+    color: rgb(240, 75, 108) !important;
+    background-color: #fff !important;
+    border-right: 16px solid  rgb(240, 75, 108) !important;
+    border-bottom: 10px solid  rgb(240, 75, 108) !important;
+}
+
+/* sectionSix  setpOne H3 */
+.sectionSix .setpOne h3 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color:#fff;
+    font-weight: bold;
+}
+
+/* sectionSix setpTwo */
+
+.sectionSix .setpTwo{
+    margin-bottom: 2%;
+}
+
+/* sectionSix setpTwo one */
+.sectionSix .setpTwo .one{
+   /* position: absolute;
+   width: 250px; */
+}
+
+/* sectionSix setpTwo two */
+.sectionSix .setpTwo .two {
+   /* position: absolute;
+   width: 250px; */
+}
+
+/* sectionSix setpTwo three */
+.sectionSix .setpTwo .three {
+   /* position: absolute;
+   width: 250px; */
+}
+
+/* sectionSix setpTwo two */
+.sectionSix .setpTwo .two span{
+    color: red;
+    font-size: xx-small;
+}
+
+/* sectionSix setpTwo three */
+.sectionSix .setpTwo .three span{
+    color: red;
+    font-size: xx-small;
+}
+  
+/* init sectio FOOTER */  
+
+.sectionFooter {
+    margin-bottom: 2%;
+}

@@ -1,31 +1,56 @@
-<div class="container-fluid sectionFive" style="background: linear-gradient(to left, #d3d3d3 50%, #fff 50%);">
+<div class="container-fluid sectionFive">
     <div class="container">
-
         <div class="row justify-content-center sectionFive-one">
-            <div class="col-sm-9">
+            <div class="col-sm-10">
                 <div class="row">
-                    <div class="col">
-                        <h3>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos
-                        </h3>
+                    <div class="col one">
+                        <h3>Lorem Ipsum é simplesmente. </h3>
                     </div>
-                    <div class="col">
-                        <div class="bg-sectiofive"></div>
+                    <div class="col two">
+                        <div class="bg-sectionfive"></div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row justify-content-center sectionFive-two">
-            <div class="col-sm-9">
+            <div class="col-sm-10" style="top:60px">
                 <div class="row">
-                    <div class="col">
-                        setp1
+                    <div class="col setpOne">
+                        <div class="col">
+                            <h4>LOREM</h4>
+                        </div>
+                        <div class="col">
+                            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img src="" alt="not found">
+                        </div>
                     </div>
-                    <div class="col">
-                        setp2
+                    <div class="col setpTwo">
+                        <div class="col">
+                            <h4>LOREM</h4>
+                        </div>
+                        <div class="col">
+                            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img src="" alt="not found">
+                        </div>
                     </div>
-                    <div class="col">
-                        setp3
+                    <div class="col setpThree">
+                        <div class="col">
+                            <h4>LOREM</h4>
+                        </div>
+                        <div class="col">
+                            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img src="" alt="not found">
+                        </div>
                     </div>
                 </div>
             </div>
