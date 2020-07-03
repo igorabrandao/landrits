@@ -6,12 +6,12 @@
                     <div class="row" style="padding: 0% 0% 0% 5%; ">
                         <div class="col">
                             <div class="col">
-                                <?php $sectionFour_image_setpOne = get_field('sectionFour_image_setpOne'); ?>
-                                <img style=" width: 450px; height: 250px;" src="{{ $sectionFour_image_setpOne }}"
+                                <?php $sectionFour_image_stepOne = get_field('sectionFour_image_stepOne'); ?>
+                                <img style=" width: 450px; height: 250px;" src="{{ $sectionFour_image_stepOne }}"
                                     alt="not found">
                             </div>
                             <div class="col">
-                                <h4><?php the_field('sectionFour_description_setpOne'); ?></h4>
+                                <h4><?php the_field('sectionFour_description_stepOne'); ?></h4>
                             </div>
                             <a href="<?php the_field('link_button') ?>" style="
                         -webkit-box-shadow: 7px 6px 3px 0px rgba(55, 61, 135, 0.61);
@@ -23,7 +23,7 @@
                         position: absolute;
                         bottom: -4%;
     left: 13%;
-                        " class="btn btn-danger"><?php the_field('sectionFour_title_button_setpOne') ?></a>
+                        " class="btn btn-danger"><?php the_field('sectionFour_title_button_stepOne') ?></a>
                         </div>
 
                         <div class="col">
@@ -106,12 +106,12 @@
 
                         <div class="col">
                             <div class="col">
-                                <h4><?php the_field('sectionFour_description_setpTwo'); ?></h4>
+                                <h4><?php the_field('sectionFour_description_stepTwo'); ?></h4>
                             </div>
                             <div class="col">
-                                <?php $sectionFour_image_setpTwo = get_field('sectionFour_image_setpTwo'); ?>
+                                <?php $sectionFour_image_stepTwo = get_field('sectionFour_image_stepTwo'); ?>
                                 <img style=" width: 450px; height: 250px; position: relative;"
-                                    src="{{ $sectionFour_image_setpTwo }}" alt="not found">
+                                    src="{{ $sectionFour_image_stepTwo }}" alt="not found">
 
                                 <a href="<?php the_field('link_button') ?>" style="
                         -webkit-box-shadow: 7px 6px 3px 0px rgba(55, 61, 135, 0.61);
@@ -121,7 +121,7 @@
                         font-size: unset;
                         font-weight: 800;
                         position: absolute;
-                        left: 10%;" class="btn btn-danger"><?php the_field('sectionFour_title_button_setpTwo') ?></a>
+                        left: 10%;" class="btn btn-danger"><?php the_field('sectionFour_title_button_stepTwo') ?></a>
                             </div>
 
                         </div>
@@ -139,11 +139,11 @@
                     <div class="row" style="padding: 10% 0% 0% 5%; ">
                         <div class="col">
                             <div class="col">
-                                <h4><?php the_field('sectionFour_description_setpThree'); ?></h4>
+                                <h4><?php the_field('sectionFour_description_stepThree'); ?></h4>
                             </div>
                             <div class="col">
-                                <?php $sectionFour_image_setpThree = get_field('sectionFour_image_setpThree'); ?>
-                                <img style=" width: 450px; height: 250px;" src="{{ $sectionFour_image_setpThree }}"
+                                <?php $sectionFour_image_stepThree = get_field('sectionFour_image_stepThree'); ?>
+                                <img style=" width: 450px; height: 250px;" src="{{ $sectionFour_image_stepThree }}"
                                     alt="not found">
 
                                 <a href="<?php the_field('link_button') ?>" style="
@@ -155,7 +155,7 @@
                         font-weight: 800;
                         position: absolute;
                         top: 55%;
-                        left: 14%;" class="btn btn-danger"><?php the_field('sectionFour_title_button_setpThree') ?></a>
+                        left: 14%;" class="btn btn-danger"><?php the_field('sectionFour_title_button_stepThree') ?></a>
                             </div>
 
                         </div>

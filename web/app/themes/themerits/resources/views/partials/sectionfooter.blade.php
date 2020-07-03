@@ -1,6 +1,6 @@
 <div class="container-fluid sectionFooter">
     <div class="container">
-        <div class="row justify-content-center setpOne">
+        <div class="row justify-content-center stepOne">
             <div class="col-sm-9">
                 <div class="row">
                     <div class="col one">
@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-center setpTwo">
+        <div class="row justify-content-center stepTwo">
             <div class="col-sm-10">
                 <div class="row one">
                     <div class="col align-self-start ">

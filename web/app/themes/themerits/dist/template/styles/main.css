@@ -15,10 +15,7 @@
 .sectioOne p{
     font-size: small;
 }
-.sectioOne .setOne{
-    padding: 0% 10% 0% 15%;
-    font-size: smaller;
-}
+
 .sectioOne a{
     -webkit-box-shadow: 7px 6px 3px 0px rgba(55, 61, 135, 0.61);
     -moz-box-shadow:    7px 6px 3px 0px rgba(55, 61, 135, 0.91);
@@ -28,17 +25,19 @@
     font-weight: bold;
 }
 .sectioOne img{
-    width: 500px
+    max-width: 100%;
+    margin-bottom: 10%;
+    margin-left: 50%;
 }
-/* tab div icon */
-.sectioOne .icon-sectioOne{
+/* sectioOne bg-sectioOne */
+.sectioOne .bg-sectioOne{
     margin: 0px;
     background-image: url('/app/themes/themerits/dist/template/bg/icon-triangle.png');
     position: absolute;
     bottom: 9%;
-    right: -25%;
-    width: 33px;
-    height: 33px;
+    right: -33%;
+    width: 32px;
+    height: 30px;
     background-repeat: no-repeat;
 }
 
@@ -317,8 +316,8 @@
 
 }
 
-/* sectionFive sectionFive-two setpOne */
-.sectionFive .sectionFive-two .setpOne{
+/* sectionFive sectionFive-two stepOne */
+.sectionFive .sectionFive-two .stepOne{
     height: 400px;
     position:relative;
     background-color: #fff;
@@ -329,8 +328,8 @@
     box-shadow:         -2px 2px 3px 0px rgba(50, 50, 50, 0.61);
 }
 
-/* sectionFive sectionFive-two setpTwo */
-.sectionFive .sectionFive-two .setpTwo{
+/* sectionFive sectionFive-two stepTwo */
+.sectionFive .sectionFive-two .stepTwo{
     height: 400px;
     position:relative;
     background-color: #fff;
@@ -340,8 +339,8 @@
     -moz-box-shadow:    -2px 2px 3px 0px rgba(50, 50, 50, 0.61);
     box-shadow:         -2px 2px 3px 0px rgba(50, 50, 50, 0.61);
 }
-/* sectionFive sectionFive-two setpThree */
-.sectionFive .sectionFive-two .setpThree{
+/* sectionFive sectionFive-two stepThree */
+.sectionFive .sectionFive-two .stepThree{
     height: 400px;
     position:relative;
     background-color: #fff;
@@ -381,31 +380,31 @@
     font-size: small;
 }
 
-/* sectionFive sectionFive-two setpOne one */
-.sectionFive .sectionFive-two .setpOne .one{
+/* sectionFive sectionFive-two stepOne one */
+.sectionFive .sectionFive-two .stepOne .one{
     border-bottom: 1px solid #696969;
     color: rgb(240, 75, 108);
 }
 
-/* sectionFive sectionFive-two setpTwo one */
-.sectionFive .sectionFive-two .setpTwo .one{
+/* sectionFive sectionFive-two stepTwo one */
+.sectionFive .sectionFive-two .stepTwo .one{
     border-bottom: 1px solid #696969;
     color: #47c070;
 }
 
-/* sectionFive sectionFive-two setpThree one */
-.sectionFive .sectionFive-two .setpThree .one{
+/* sectionFive sectionFive-two stepThree one */
+.sectionFive .sectionFive-two .stepThree .one{
     border-bottom: 1px solid #696969;
     color: #2987db
 }
 
-/* sectionFive sectionFive-two setpTwo three img */
-.sectionFive .sectionFive-two .setpTwo .three img{
+/* sectionFive sectionFive-two stepTwo three img */
+.sectionFive .sectionFive-two .stepTwo .three img{
     width: 55%;
 }
 
-/* sectionFive sectionFive-two setpThree three */
-.sectionFive .sectionFive-two .setpThree .three img{
+/* sectionFive sectionFive-two stepThree three */
+.sectionFive .sectionFive-two .stepThree .three img{
     width: 45%;
 }
   
@@ -420,12 +419,12 @@
     background-color: #696969;
 }
 
-/* sectionSix  setpOne */
-.sectionSix .setpOne {
+/* sectionSix  stepOne */
+.sectionSix .stepOne {
     padding: 5% 0% 2% 2%;
 }
 
-/* sectionSix  setpOne list-group-item */
+/* sectionSix  stepOne list-group-item */
 .list-group .list-group-item {
     padding: 1.75rem 1.25rem ;
     background-color: #434446a8;
@@ -446,58 +445,58 @@
     border-bottom: 10px solid  rgb(240, 75, 108) !important;
 }
 
-/* sectionSix  setpOne H3 */
-.sectionSix .setpOne h3 {
+/* sectionSix  stepOne H3 */
+.sectionSix .stepOne h3 {
     margin-top: 10%;
     margin-bottom: 5%;
     color:#fff;
     font-weight: bold;
 }
 
-/* sectionSix setpTwo */
+/* sectionSix stepTwo */
 
-.sectionSix .setpTwo{
+.sectionSix .stepTwo{
     margin-bottom:5%;
     margin-left:5%
 }
 
-/* sectionSix setpTwo one */
-.sectionSix .setpTwo .one{
+/* sectionSix stepTwo one */
+.sectionSix .stepTwo .one{
    /* position: absolute;
    width: 250px; */
 }
 
-/* sectionSix setpTwo two */
-.sectionSix .setpTwo .two {
+/* sectionSix stepTwo two */
+.sectionSix .stepTwo .two {
    /* position: absolute;
    width: 250px; */
 }
 
-/* sectionSix setpTwo three */
-.sectionSix .setpTwo .three {
+/* sectionSix stepTwo three */
+.sectionSix .stepTwo .three {
    /* position: absolute;
    width: 250px; */
 }
 
-/* sectionSix setpTwo two */
-.sectionSix .setpTwo .two span{
+/* sectionSix stepTwo two */
+.sectionSix .stepTwo .two span{
     color: red;
     font-size: xx-small;
 }
 
-/* sectionSix setpTwo three */
-.sectionSix .setpTwo .three span{
+/* sectionSix stepTwo three */
+.sectionSix .stepTwo .three span{
     color: red;
     font-size: xx-small;
 }
   
 /* init sectio FOOTER */  
 
-.sectionFooter .setpTwo .one{
+.sectionFooter .stepTwo .one{
     margin-bottom: 5%;
 }
 
-.sectionFooter .setpTwo .two{
+.sectionFooter .stepTwo .two{
     font-size: small;
     color: #696969;
 }

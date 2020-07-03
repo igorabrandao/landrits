@@ -2,13 +2,13 @@
     <div class="container">
 
         <div class="row justify-content-center">
-            <div class="col-sm-10 setpOne">
+            <div class="col-sm-10 stepOne">
                 <h3>Lorem Ipsum é simplesmente uma odio</h3>
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-sm-10 setpTwo">
+            <div class="col-sm-10 stepTwo">
                 <div class="row">
                     <div class="col one">
                         <ul class="list-group">
