@@ -8,7 +8,7 @@
         </div>
 
         <div class="row justify-content-center setpTwo">
-            <div class="col-sm-10" style="margin-bottom:2%">
+            <div class="col-sm-10" style="margin-bottom:2%; margin-left:5%">
                 <div class="row">
                     <div class="col one">
                         <ul class="list-group">

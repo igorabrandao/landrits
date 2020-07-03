@@ -9,7 +9,6 @@
 @include('partials.sectionsix') 
 @include('partials.sectionfooter') 
 
-<!-- <img src="@asset('images/example.jpg')"> -->
   @while(have_posts()) @php(the_post())
     @includeFirst(['partials.content-page', 'partials.content'])
   @endwhile
