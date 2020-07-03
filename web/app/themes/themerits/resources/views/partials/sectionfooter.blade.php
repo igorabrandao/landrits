@@ -1,25 +1,25 @@
 <div class="container-fluid sectionFooter">
     <div class="container">
-        <div class="row justify-content-center sectionFooter-one">
+        <div class="row justify-content-center setpOne">
             <div class="col-sm-9">
                 <div class="row">
-                    <div class="col">
+                    <div class="col one">
 
                     </div>
-                    <div class="col">
+                    <div class="col two">
 
                     </div>
-                    <div class="col">
+                    <div class="col three">
 
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row justify-content-center sectionFooter-two">
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col align-self-start">
+        <div class="row justify-content-center setpTwo">
+            <div class="col-sm-10">
+                <div class="row one">
+                    <div class="col align-self-start ">
                         <a class="brand" href="{{ home_url('/') }}">
                             <?php $image =  wp_get_attachment_url(get_theme_mod( 'custom_logo' )); ?>
                             <img src="{{ $image }}" alt="{{ $siteName }}">
@@ -34,7 +34,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row two" >
                     <p>Lorem Ipsum é simplesmente uma simulação de impressos. </p>
                 </div>
             </div>

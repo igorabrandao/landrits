@@ -2,7 +2,9 @@
 .navbar {
     background-color: transparent;
 }
-
+.navbar img {
+   width: 60px;
+}
 /* init sectio ONE */
 .sectioOne {
     background: linear-gradient(to bottom, #fff 0%, #fff 75%, rgb(71, 192, 112) 0%, rgb(71, 192, 112) 100%);
@@ -420,7 +422,7 @@
 
 /* sectionSix  setpOne */
 .sectionSix .setpOne {
-
+    padding: 5% 0% 2% 2%;
 }
 
 /* sectionSix  setpOne list-group-item */
@@ -455,7 +457,8 @@
 /* sectionSix setpTwo */
 
 .sectionSix .setpTwo{
-    margin-bottom: 2%;
+    margin-bottom:5%;
+    margin-left:5%
 }
 
 /* sectionSix setpTwo one */
@@ -490,6 +493,19 @@
   
 /* init sectio FOOTER */  
 
-.sectionFooter {
-    margin-bottom: 2%;
+.sectionFooter .setpTwo .one{
+    margin-bottom: 5%;
+}
+
+.sectionFooter .setpTwo .two{
+    font-size: small;
+    color: #696969;
+}
+
+.sectionFooter img{
+    width: 50px;
+}
+
+.sectionFooter .nav {
+    float: right;
 }

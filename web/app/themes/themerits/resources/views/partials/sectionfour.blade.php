@@ -139,9 +139,8 @@
                     <div class="row" style="padding: 10% 0% 0% 5%; ">
                         <div class="col">
                             <div class="col">
-                                <p><?php the_field('sectionFour_description_setppThree'); ?></p>
+                                <h4><?php the_field('sectionFour_description_setpThree'); ?></h4>
                             </div>
-
                             <div class="col">
                                 <?php $sectionFour_image_setpThree = get_field('sectionFour_image_setpThree'); ?>
                                 <img style=" width: 450px; height: 250px;" src="{{ $sectionFour_image_setpThree }}"

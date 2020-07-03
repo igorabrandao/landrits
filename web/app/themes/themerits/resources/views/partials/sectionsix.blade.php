@@ -1,14 +1,14 @@
 <div class="container-fluid sectionSix">
     <div class="container">
 
-        <div class="row justify-content-center setpOne">
-            <div class="col-sm-10">
+        <div class="row justify-content-center">
+            <div class="col-sm-10 setpOne">
                 <h3>Lorem Ipsum é simplesmente uma odio</h3>
             </div>
         </div>
 
-        <div class="row justify-content-center setpTwo">
-            <div class="col-sm-10" style="margin-bottom:2%; margin-left:5%">
+        <div class="row justify-content-center">
+            <div class="col-sm-10 setpTwo">
                 <div class="row">
                     <div class="col one">
                         <ul class="list-group">
