@@ -4,7 +4,7 @@
       <div class="col-12 col-sm-10 col-md-10 col-lg-10">
         <div class="row">
           <div class="col-12 col-sm-4">
-            <h2><?php the_field('sectionOne_title'); ?></h2>
+            <h3><?php the_field('sectionOne_title'); ?></h3>
             <p><?php the_field('sectionOne_description'); ?></p>
             <a href="<?php the_field('sectionOne_link_button') ?>" class="btn btn-danger"><?php the_field('sectionOne_title_button') ?></a>
           </div>

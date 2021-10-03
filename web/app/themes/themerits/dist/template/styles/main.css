@@ -7,9 +7,10 @@
 }
 /* init sectio ONE */
 .sectioOne {
-    background: linear-gradient(to bottom, #fff 0%, #fff 75%, rgb(71, 192, 112) 0%, rgb(71, 192, 112) 100%);
+    margin-top: 5%;
+    background: linear-gradient(to bottom, #fff 0%, #fff 75%, rgb(77, 79, 77) 0%, rgb(77, 79, 77) 100%);
 }
-.sectioOne h2{
+.sectioOne h3{
     font-weight: bold;
 }
 .sectioOne p{
@@ -25,7 +26,7 @@
     font-weight: bold;
 }
 .sectioOne img{
-    max-width: 100%;
+    max-width: 95%;
     margin-bottom: 10%;
     margin-left: 50%;
 }
@@ -45,7 +46,7 @@
 /* init sectio TWO */  
 
 .sectioTwo{
-    background: linear-gradient(to top, #fff 0%, #fff 25%, rgb(71, 192, 112) 0%, rgb(71, 192, 112) 100%);
+    background: linear-gradient(to top, #fff 0%, #fff 25%, rgb(77, 79, 77) 0%, rgb(77, 79, 77) 100%);
     margin-bottom: 10%;
 }
 .sectioTwo .setTwo .one{
@@ -70,8 +71,10 @@
     padding: 5% 25% 14% 10%;
 }
 .sectioTwo img{
-    width: 400px;
-    height: 250px;
+    /* width: 400px;
+    height: 250px; */
+    width: 425px;
+    height: 335px;
     right: 15%;
     filter: brightness(10%);
     background: #000;
